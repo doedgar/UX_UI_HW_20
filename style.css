@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Unicase:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crushed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Petit+Formal+Script&display=swap');
+
+.inline-block {
+    display: inline-block;
+    vertical-align: top;
+    align-items: right;
+    justify-content: right;
+    font-family: 'Crushed', cursive;
+    font-size: 20pt;
+}
+
+.logo-pic > img {
+    height: 80px;
+    margin: 10%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.logo {
+    width: 23px;
+    padding: 1%;
+    border: 1rem;
+}
+
+nav {
+    width: 60%;
+    padding: 5%;
+}
+
+.navigation {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-right: 50pt;
+}
+
+ul {
+    /* display: flex; */
+    width: 100%;
+    margin-left: 200pt;
+    /* justify-content: right; */
+}
+
+.content {
+    width: 700px;
+    margin: 0 auto;
+}
+
+footer {
+    background-color: rgb(83, 99, 79); 
+    color: white;   
+    padding: 25px;
+}
+
+footer > ul {
+    display: inline-block;
+    vertical-align: top;
+}
+
+img {
+    height: 200px;
+}
+
+.aboutme {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutheader {
+    height: 15px;
+    text-align: center;
+    font-family: 'Cormorant Unicase', serif;
+    font-size: 53pt;
+}
+
+.skills, .my-work {
+    width: 100%;
+
+    justify-content: center;
+    align-items: center;
+}
+
+
+.my-work {
+   
+      align-items: center;
+}
+
+
+.item1, .item2, .item3, .item4 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+    justify-content: space-around;
+      align-items: center;
+  }
+
+.skillsheader {
+    height: 15px;
+    width: 65%;
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Cormorant Unicase', serif;
+    font-size: 53pt;
+    padding: 1rem;
+}
+.skillheader1, .skillheader2, .skillheader3, .skillheader4 {
+    display: flex;
+    font-size: 35pt;
+    width: 20%;
+    padding: 1rem;
+    font-family: 'Petit Formal Script', cursive;
+    text-align: center;
+    margin-left: 5%;
+}
+
+
+
+button {
+    width: 15%;
+    padding: 1rem;
+    background-color: rgb(83, 99, 79);
+    border-radius: 10px;
+    font-family: 'Crushed', cursive;
+    color: white;
+    font-size: 18pt;
+}
+/*
+.skillheader2 {
+    display: flex;
+        height: 100px;
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        padding: 1rem;
+        font-family: 'Cormorant Unicase', serif;
+        font-size: 53pt;
+}
+.skillheader3 {
+            height:100px;
+            width: 80%%;
+            display: flex;
+            padding: 1rem;
+            font-family: 'Cormorant Unicase', serif;
+            font-size: 53pt;
+}
+.skillheader4 {
+    height: 100px;
+    width: 80%;
+    display: flex;
+    padding: 1rem;
+    font-family: 'Cormorant Unicase', serif;
+    font-size: 53pt;
+}
+*/
+
+.info {
+    width: 70%;
+    border: 1px solid black;
+    padding: 1rem;
+    font-family: 'Poiret One', cursive;
+}
+
+.info2 {
+    width: 30%;
+    border: 1px solid black;
+    padding: 1rem;
+    font-family: 'Poiret One', cursive;
+    display: flex;
+    justify-content:space-between;
+    margin-left: 5%;
+}
+
+.resume-button {
+    width: 30%;
+    padding: 1rem;
+    background-color: rgb(83, 99, 79);
+    border-radius: 10px;
+    font-family: 'Crushed', cursive;
+    color: white;
+    font-size: 18pt;
+   
+
+}
+
+@media only screen and (max-width: 600px) {
+    .flexContainer {
+        display:flex;
+        width: 100%;
+        flex-direction: column;
+    }
+    
+    .item1, .item2, .item3, .item4 {
+    display: flex;
+       
+        flex-wrap: wrap;
+    flex-direction: column;
+}
+    
+    .skillheader1, .skillheader2, .skillheader3, .skillheader4 {
+    display: flex;
+    font-family: 'Cormorant Unicase', serif;
+    font-size: 3em;
+    width: 100%;
+    
+    font-family: 'Poiret One', cursive;
+    text-align: center;
+    margin: 5%;
+}
+    button {
+    width: 100%;
+    padding: 1rem;
+    background-color: rgb(83, 99, 79);
+    border-radius: 10px;
+    font-family: 'Crushed', cursive;
+    color: white;
+    font-size: 1.5em;
+        margin-bottom: 1rem;
+    }
+}
